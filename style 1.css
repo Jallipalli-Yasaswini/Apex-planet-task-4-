@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+header { background: #333; color: #fff; padding: 1rem 0; }
+header nav { display: flex; justify-content: space-between; align-items: center; width: 90%; margin: auto; }
+header ul { display: flex; list-style: none; }
+header li { margin-left: 20px; }
+header a { color: white; text-decoration: none; }
+
+section { padding: 2rem; width: 90%; margin: auto; }
+#projects .project { background: #f4f4f4; padding: 1rem; margin-bottom: 1rem; border-radius: 5px; }
+
+form input, form textarea, form button {
+  display: block; width: 100%; margin: 10px 0; padding: 10px;
+}
+
+footer { text-align: center; background: #333; color: white; padding: 1rem; }
+
+@media(max-width:768px){
+  header nav{ flex-direction: column; }
+  header ul{ flex-direction: column; margin-top:10px; }
+}
