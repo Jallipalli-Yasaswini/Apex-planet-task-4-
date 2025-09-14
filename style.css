@@ -1,0 +1,4 @@
+body { font-family: Arial; text-align: center; padding: 20px; }
+#taskList { list-style: none; padding: 0; }
+#taskList li { background: #f4f4f4; margin: 5px; padding: 10px; border-radius: 5px; }
+.done { text-decoration: line-through; color: gray; }
